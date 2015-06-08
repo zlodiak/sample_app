@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'microposts/create'
+
+  get 'microposts/destroy'
+
   resources :microposts,  only: [:create, :destroy]
   resources :sessions,  only: [:new,  :create,  :destroy]
   resources :users
