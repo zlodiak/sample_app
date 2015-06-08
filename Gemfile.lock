@@ -62,7 +62,11 @@ GEM
     debugger-ruby_core_source (1.3.8)
     erubis (2.7.0)
     execjs (2.5.2)
+<<<<<<< HEAD
     faker (1.1.2)
+=======
+    faker (1.4.3)
+>>>>>>> user-microposts
       i18n (~> 0.5)
     globalid (0.3.5)
       activesupport (>= 4.1.0)
@@ -165,7 +169,11 @@ DEPENDENCIES
   bootstrap-will_paginate (= 0.0.10)
   coffee-rails (~> 4.1.0)
   debugger
+<<<<<<< HEAD
   faker (= 1.1.2)
+=======
+  faker
+>>>>>>> user-microposts
   jbuilder (~> 2.0)
   jquery-rails
   pg
@@ -178,4 +186,8 @@ DEPENDENCIES
   turbolinks
   uglifier (>= 1.3.0)
   web-console (~> 2.0)
+<<<<<<< HEAD
   will_paginate (= 3.0.7)
+=======
+  will_paginate
+>>>>>>> user-microposts
